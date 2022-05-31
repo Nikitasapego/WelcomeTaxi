@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!--
+    <link rel="stylesheet" href="assets/fonts/HelveticaBold.ttf">
+    <link rel="stylesheet" href="assets/fonts/HelveticaRegular.ttf">
+    <link rel="stylesheet" href="assets/fonts/HelveticaMedium.ttf">
+    <link rel="stylesheet" href="assets/fonts/HelveticaLight.ttf">
+    -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!--<link rel="stylesheet" type="text/css" href="css/lightpick.css">-->
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Welcome Taxi | Home</title>
+</head>
+
+<body>
+
+    <div class="page">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="#" class="header__logo">
+                        <img src="assets/images/HeaderLogo.png" alt="Image">
+                    </a>
+        
+                    <nav class="nav">
+                        <a class="nav__link" href="#">Home</a>
+                        <a class="nav__link" href="#">About us</a>
+                        <a class="nav__link" href="#">Directions</a>
+                        <a class="nav__link" href="#">Online booking</a>
+                        <a class="nav__link" href="#">Inquiry form</a>
+                        <a class="nav__link" href="#">Help</a>
+                        <a class="nav__link" href="#">Contact us</a>
+                    </nav>
+        
+                    <div class="header__language">
+                        <a href="#" class="language__link">
+                            <img src="assets/images/EnglishLanguage.png" alt="Image">
+                        </a>
+                        <a href="#" class="language__link">
+                            <img src="assets/images/DutchLanguage.png" alt="Image">
+                        </a>
+                    </div>
+        
+                    <div class="burger">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        
+        
+        <!-- Intro -->
+        <section class="intro">
+            <div class="container">
+                <div class="intro__inner">
+                    <h1 class="intro__title">Your business class transfer to the ski resort</h1>
+                    <h3 class="intro__subtitle">Select the arrival airport and the desired ski resort. Welcome taxi will provide you with a round trip transfer at a low price</h3>
+        
+                    <form action="#" class="intro__form" id="form">
+                        <div class="form__item from" id="from">
+                            <div class="form__item-label">From</div>
+                            <div class="form__item-destination">
+                                <div class="form__info">
+                                    <img class="form__icon" src="assets/images/icons/Point.svg" alt="Image">
+                                    <div class="form__text" id="fromText">Abenberg</div>
+                                </div>
+                                <div class="form__icon-arrow">
+                                    <img src="assets/images/icons/Arrow.svg" alt="Image">
+                                </div>
+                            </div>
+                            <div class="popup from-list" id="from-popup">
+                                <div class="search">
+                                    <input type="text" placeholder="Search...">
+                                </div>
+                                <ul>
+                                    <li class="active">
+                                        <img src="assets/images/icons/Snow.svg" alt="Image">
+                                        <span class="target-span">Abenberg</span>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/icons/Plane.svg" alt="Image">
+                                        <span class="target-span">Abensberg</span>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/icons/Snow.svg" alt="Image">
+                                        <span class="target-span">Augustusburg</span>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/icons/Plane.svg" alt="Image">
+                                        <span class="target-span">Eisenberg</span>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/icons/Snow.svg" alt="Image">
+                                        <span class="target-span">Eisenhüttenstadt</span>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/icons/Snow.svg" alt="Image">
+                                        <span class="target-span">Eilenburg</span>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/icons/Plane.svg" alt="Image">
+                                        <span class="target-span">Eisfeld</span>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/icons/Snow.svg" alt="Image">
+                                        <span class="target-span">Eichstätt</span>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/icons/Plane.svg" alt="Image">
+                                        <span class="target-span">Babenhausen</span>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/icons/Snow.svg" alt="Image">
+                                        <span class="target-span">Bad Bevensen</span>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/icons/Snow.svg" alt="Image">
+                                        <span class="target-span">Bad Gandersheim</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--/.form__item-->
+                        <div class="form__item" id="to">
+                            <div class="form__item-label">To</div>
+                            <div class="form__item-destination">
+                                <div class="form__info">
+                                    <img class="form__icon" src="assets/images/icons/Point.svg" alt="Image">
+                                    <div class="form__text" id="toText">Kirchberg</div>
+                                </div>
+                                <div class="form__icon-arrow">
+                                    <img src="assets/images/icons/Arrow.svg" alt="Image">
+                                </div>
+                            </div>
+                            <div class="popup" id="to-popup">
+                                <div class="search">
+                                    <input type="text" placeholder="Search...">
+                                </div>
+                                <ul>
+                                    <li class="active">
+                                        <img src="assets/images/icons/Plane.svg" alt="Image">
+                                        <span>Innsbruck Airport</span>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/icons/Snow.svg" alt="Image">
+                                        <span>Hintertux</span>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/icons/Snow.svg" alt="Image">
+                                        <span>Ischgl</span>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/icons/Snow.svg" alt="Image">
+                                        <span>Kirchberg</span>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/icons/Snow.svg" alt="Image">
+                                        <span>Konigsleiten</span>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/icons/Snow.svg" alt="Image">
+                                        <span>La Villa</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--/.form__item-->
+                        <div class="form__item date">
+                            <div class="form__item-label">Transfer date</div>
+                            <div class="form__item-destination">
+                                <div class="form__info">
+                                    <img class="form__icon" src="assets/images/icons/Date.svg" alt="Image">
+                                    <input type="text" id="demo-2" class="form-control form-control-sm" placeholder="13.11.2020">
+                                </div>
+                                <div class="form__icon-arrow">
+                                    <img src="assets/images/icons/Arrow.svg" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.form__item-->
+                        <div class="form__item" id="person">
+                            <div class="form__item-label">Passengers</div>
+                            <div class="form__item-destination">
+                                <div class="form__info">
+                                    <img class="form__icon" src="assets/images/icons/Person.svg" alt="Image">
+                                    <div class="form__text" id="toPerson">2 persons</div>
+                                </div>
+                                <div class="form__icon-arrow">
+                                    <img src="assets/images/icons/Arrow.svg" alt="Image">
+                                </div>
+                                <div class="popup" id="person-popup">
+                                    <ul>
+                                        <li class="active">
+                                            <img src="assets/images/icons/Person.svg" alt="Image">
+                                            <span>2 persons</span>
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/icons/Person.svg" alt="Image">
+                                            <span>4 persons</span>
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/icons/Person.svg" alt="Image">
+                                            <span>6 persons</span>
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/icons/Person.svg" alt="Image">
+                                            <span>8 persons</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.form__item-->
+                        <button type="button" class="form__button">
+                            <img class="button__icon" src="assets/images/icons/Search.svg" alt="Image">
+                            <div class="button__text">Book now</div>
+                        </button>
+                    </form>
+        
+                    <div class="intro__contacts">
+                        <div class="contacts__item">
+                            <img class="contacts__icon" src="assets/images/icons/Phone.svg" alt="Image">
+                            <a href="tel:+436601231212" class="contacts__text">+43 660 123 12 12</a>
+                        </div>
+                        <div class="contacts__item">
+                            <img class="contacts__icon" src="assets/images/icons/Email.svg" alt="Image">
+                            <a href="mailto:office@welcome-taxi.com" class="contacts__text">office@welcome-taxi.com</a>
+                        </div>
+                    </div>
+                    <!--/.intro__contacts-->
+                </div>
+                <!--/.intro__inner-->
+            </div>
+            <!--/.container-->
+        </section>
+        <!-- Services -->
+        <section class="services">
+            <div class="container">
+                <div class="services__inner">
+                    <h2 class="section__header">With <span>our service</span> you will get</h2>
+                    <div class="services__items">
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <img class="" src="assets/images/icons/Services/1.svg" alt="Image">
+                            </div>
+                            <div class="services__text">No extra charge for your ski equipment</div>
+                        </div>
+                        <!--/.services__item-->
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <img class="" src="assets/images/icons/Services/2.svg" alt="Image">
+                            </div>
+                            <div class="services__text">No additional costs for delays</div>
+                        </div>
+                        <!--/.services__item-->
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <img class="" src="assets/images/icons/Services/3.svg" alt="Image">
+                            </div>
+                            <div class="services__text">Child seats for free</div>
+                        </div>
+                        <!--/.services__item-->
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <img class="" src="assets/images/icons/Services/4.svg" alt="Image">
+                            </div>
+                            <div class="services__text">Extras for free </div>
+                        </div>
+                        <!--/.services__item-->
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <img class="" src="assets/images/icons/Services/5.svg" alt="Image">
+                            </div>
+                            <div class="services__text">Best price gurantee</div>
+                        </div>
+                        <!--/.services__item-->
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <img class="" src="assets/images/icons/Services/6.svg" alt="Image">
+                            </div>
+                            <div class="services__text">No cancellation fees</div>
+                        </div>
+                        <!--/.services__item-->
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <img class="" src="assets/images/icons/Services/7.svg" alt="Image">
+                            </div>
+                            <div class="services__text">Free waiting</div>
+                        </div>
+                        <!--/.services__item-->
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <img class="" src="assets/images/icons/Services/8.svg" alt="Image">
+                            </div>
+                            <div class="services__text">Always one time</div>
+                        </div>
+                        <!--/.services__item-->
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <img class="" src="assets/images/icons/Services/9.svg" alt="Image">
+                            </div>
+                            <div class="services__text">Vehicle exclusively for you</div>
+                        </div>
+                        <!--/.services__item-->
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <img class="" src="assets/images/icons/Services/10.svg" alt="Image">
+                            </div>
+                            <div class="services__text">Professional and trusted drivers</div>
+                        </div>
+                        <!--/.services__item-->
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <img class="" src="assets/images/icons/Services/11.svg" alt="Image">
+                            </div>
+                            <div class="services__text">24/7 customer service</div>
+                        </div>
+                        <!--/.services__item-->
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <img class="" src="assets/images/icons/Services/12.svg" alt="Image">
+                            </div>
+                            <div class="services__text">Excellent reputation</div>
+                        </div>
+                        <!--/.services__item-->
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <img class="" src="assets/images/icons/Services/13.svg" alt="Image">
+                            </div>
+                            <div class="services__text">Modern neat fleet</div>
+                        </div>
+                        <!--/.services__item-->
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <img class="" src="assets/images/icons/Services/14.svg" alt="Image">
+                            </div>
+                            <div class="services__text">Pay to the driver after transfer</div>
+                        </div>
+                        <!--/.services__item-->
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <img class="" src="assets/images/icons/Services/15.svg" alt="Image">
+                            </div>
+                            <div class="services__text">Personal meet &amp; greet All inclusive</div>
+                        </div>
+                        <!--/.services__item-->
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <img class="" src="assets/images/icons/Services/16.svg" alt="Image">
+                            </div>
+                            <div class="services__text">No hidden fees</div>
+                        </div>
+                        <!--/.services__item-->
+                    </div>
+                    <!--/.services__items-->
+                </div>
+            </div>
+        </section>
+        <!-- Vehicles -->
+        <section class="vehicles">
+            <div class="container">
+                <div class="vehicles__inner">
+                    <h2 class="section__header">Available <span>vehicles</span></h2>
+                    <div class="vehicles__info">A carefree holiday in the surroundings of Innsbruck? Book your transfer from and to Innsbruck Airport now! Welcome Taxi is ready to transport you to your first destination with a first class taxi journey</div>
+        
+                    <div class="vehicles__cards">
+                        <div class="vehicles__card">
+                            <div class="vehicles__card-header">Mercedes sedan</div>
+                            <div class="vehicles__persons">
+                                <img src="assets/images/icons/Vehicles/User.svg" alt="Image">
+                                <span>up to 4 persons</span>
+                            </div>
+                            <div class="vehicles__view">
+                                <a href="#" class="vehicles__link">Book now &rarr;</a>
+                                <img class="vehicles__view-image" src="assets/images/vehicles/1.png" alt="Image">
+                            </div>
+                        </div>
+                        <!--/.vehicles__card-->
+                        <div class="vehicles__card">
+                            <div class="vehicles__card-header">Mercedes minibus</div>
+                            <div class="vehicles__persons">
+                                <img src="assets/images/icons/Vehicles/User.svg" alt="Image">
+                                <span>up to 8 persons</span>
+                            </div>
+                            <div class="vehicles__view">
+                                <a href="#" class="vehicles__link">Book now &rarr;</a>
+                                <img class="vehicles__view-image" src="assets/images/vehicles/2.png" alt="Image">
+                            </div>
+                        </div>
+                        <!--/.vehicles__card-->
+                        <div class="vehicles__card">
+                            <div class="vehicles__card-header">2 Mercedes minibus</div>
+                            <div class="vehicles__persons">
+                                <img src="assets/images/icons/Vehicles/User.svg" alt="Image">
+                                <span>up to 16 persons</span>
+                            </div>
+                            <div class="vehicles__view">
+                                <a href="#" class="vehicles__link">Book now &rarr;</a>
+                                <img class="vehicles__view-image" src="assets/images/vehicles/3.png" alt="Image">
+                            </div>
+                        </div>
+                        <!--/.vehicles__card-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Safe -->
+        <section class="safe">
+            <div class="container">
+                <div class="safe__inner">
+                    <h2 class="safe__header">Safe &amp; comfortable <span>taxi transport <br>to and from</span> Innsbruck airport</h2>
+                    <div class="safe__info">
+                        <img class="safe__img" src="assets/images/safe/Safe.jpg" alt="Image">
+                        <div class="safe__text">
+                            <p>Are you planning a trip to Innsbruck soon? The capital of Tyrol is a very popular holiday destination. Both in winter and in summer, the city, located in the heart of the Alps, is a true Austrian paradise. Welcome Taxi is ready for you to fully enjoy your visit to this area without any worries!</p>
+                            <p>Innsbruck Airport teems with travelers and tourists every day. There are many ways to transport yourself from the airport. Welcome Taxi is by far the best choice. Our service consists of a number of features that make us the absolute top taxi driver at Innsbruck Airport:</p>
+                            <p>Welcome Taxi welcomes you to the snow paradise for adventurers. We are ready at Innsbruck airport to fully arrange your transport through Austria for you. Would you like to go to your hotel or to one of the many ski resorts? We will arrange it for you!</p>
+                        </div>
+                        <!--/.safe__text-->
+                    </div>
+                    <!--/.safe__info-->
+                </div>
+                <!--/.safe__inner-->
+            </div>
+        </section>
+        <!-- About -->
+        <section class="reviews">
+            <div class="container">
+                <div class="reviews__inner">
+                    <h2 class="section__header">What do customers say <span>about Welcome Taxi?</span></h2>
+        
+                    <div class="reviews__slider" id="reviewsSlider">
+                        <div>
+                            <div class="reviews__slider-item">
+        
+                                <div class="reviews__item-message">
+                                    <div class="reviews__slider-quotes">
+                                        <img src="assets/images/icons/Quotes.svg" alt="Image">
+                                    </div>
+                                    <div class="reviews__slider-rating">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                    </div>
+                                    <div class="reviews__slider-header">Worth the money!</div>
+                                    <div class="reviews__slider-text">De transfer was het geld absoluut waard! We hadden een aantal vragen over het resort en de chauffeur beantwoordde ze allemaal.</div>
+                                    <a href="#" class="reviews__slider-link">Read more</a>
+                                    <a href="#" class="reviews__slider-social">
+                                        <img src="assets/images/icons/Google.svg" alt="Image">
+                                    </a>
+                                </div>
+        
+                                <div class="reviews__client">
+                                    <div class="reviews__client-photo">
+                                        <img src="assets/images/reviews/Client1.jpg" alt="Image">
+                                    </div>
+                                    <div class="reviews__client-info">
+                                        <div class="reviews__client-name">Eliot Karter</div>
+                                        <div class="reviews__client-date">1 March, 2019</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.reviews__slider-item-->
+                        <div>
+                            <div class="reviews__slider-item">
+        
+                                <div class="reviews__item-message">
+                                    <div class="reviews__slider-quotes">
+                                        <img src="assets/images/icons/Quotes.svg" alt="Image">
+                                    </div>
+                                    <div class="reviews__slider-rating">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                    </div>
+                                    <div class="reviews__slider-header">Highly recommended</div>
+                                    <div class="reviews__slider-text">Wat een geweldige service! De auto was schoon en comfortabel, de chauffeur vriendelijk en beleefd. In alles merkten we dat we meer kregen dan dat we hadden verwacht voor de prijs die we moesten betalen. We zouden Welcome Taxi absoluut aanraden aan vrienden en familie, omdat ze ons zo goed hebben behandeld.</div>
+                                    <a href="#" class="reviews__slider-link">Read more</a>
+                                    <a href="#" class="reviews__slider-social">
+                                        <img src="assets/images/icons/Tripadvisor.svg" alt="Image">
+                                    </a>
+                                </div>
+        
+                                <div class="reviews__client">
+                                    <div class="reviews__client-photo">
+                                        <img src="assets/images/reviews/Client2.jpg" alt="Image">
+                                    </div>
+                                    <div class="reviews__client-info">
+                                        <div class="reviews__client-name">Katrin Sheik</div>
+                                        <div class="reviews__client-date">7 April, 2019</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.reviews__slider-item-->
+                        <div>
+                            <div class="reviews__slider-item">
+        
+                                <div class="reviews__item-message">
+                                    <div class="reviews__slider-quotes">
+                                        <img src="assets/images/icons/Quotes.svg" alt="Image">
+                                    </div>
+                                    <div class="reviews__slider-rating">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                    </div>
+                                    <div class="reviews__slider-header">Worth the money!</div>
+                                    <div class="reviews__slider-text">De transfer was het geld absoluut waard! Het was prettig om tegen een local te kunnen praten voordat we arriveerden bij ons resort. Dat zorgde ervoor dat we ons helemaal op ons gemak voelden. We hebben een geweldige vakantie gehad!</div>
+                                    <a href="#" class="reviews__slider-link">Read more</a>
+                                    <a href="#" class="reviews__slider-social">
+                                        <img src="assets/images/icons/Google.svg" alt="Image">
+                                    </a>
+                                </div>
+        
+                                <div class="reviews__client">
+                                    <div class="reviews__client-photo">
+                                        <img src="assets/images/reviews/Client1.jpg" alt="Image">
+                                    </div>
+                                    <div class="reviews__client-info">
+                                        <div class="reviews__client-name">Eliot Karter</div>
+                                        <div class="reviews__client-date">1 March, 2019</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.reviews__slider-item-->
+                        <div>
+                            <div class="reviews__slider-item">
+        
+                                <div class="reviews__item-message">
+                                    <div class="reviews__slider-quotes">
+                                        <img src="assets/images/icons/Quotes.svg" alt="Image">
+                                    </div>
+                                    <div class="reviews__slider-rating">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                        <img src="assets/images/icons/Star.svg" alt="Image">
+                                    </div>
+                                    <div class="reviews__slider-header">Highly recommended</div>
+                                    <div class="reviews__slider-text">Wat een geweldige service! De auto was schoon en comfortabel, de chauffeur vriendelijk en beleefd. In alles merkten we dat we meer kregen dan dat we hadden verwacht voor de prijs die we moesten betalen. We zouden Welcome Taxi absoluut aanraden.</div>
+                                    <a href="#" class="reviews__slider-link">Read more</a>
+                                    <a href="#" class="reviews__slider-social">
+                                        <img src="assets/images/icons/Tripadvisor.svg" alt="Image">
+                                    </a>
+                                </div>
+        
+                                <div class="reviews__client">
+                                    <div class="reviews__client-photo">
+                                        <img src="assets/images/reviews/Client2.jpg" alt="Image">
+                                    </div>
+                                    <div class="reviews__client-info">
+                                        <div class="reviews__client-name">Katrin Sheik</div>
+                                        <div class="reviews__client-date">7 April, 2019</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.reviews__slider-item-->
+                    </div>
+                    <!--/.reviews__slider-->
+                </div>
+            </div>
+        </section>
+        <!-- Destinations -->
+        <section class="destinations">
+            <div class="container">
+                <div class="destinations__inner">
+                    <h2 class="section__header"><span>Most booked </span>destinations</h2>
+                    <div class="destinations__cards">
+                        <a href="#" class="destinations__card">
+                            <div class="destinations__photo">
+                                <img class="" src="assets/images/destinations/1.jpg" alt="">
+                            </div>
+        
+                            <ul class="destinations__route">
+                                <li>Innsbruck airport</li>
+                                <li>Canazei</li>
+                            </ul>
+                            <div class="destinations__price">
+                                <img src="assets/images/icons/Euro.svg" alt="">
+                                <div>125</div>
+                            </div>
+                        </a>
+                        <!--/.destinations__card-->
+                        <a href="#" class="destinations__card">
+                            <div class="destinations__photo">
+                                <img class="" src="assets/images/destinations/2.jpg" alt="">
+                            </div>
+                            <ul class="destinations__route">
+                                <li>Innsbruck airport</li>
+                                <li>Konigsleiten</li>
+                            </ul>
+                            <div class="destinations__price">
+                                <img src="assets/images/icons/Euro.svg" alt="">
+                                <div>271</div>
+                            </div>
+                        </a>
+                        <!--/.destinations__card-->
+                        <a href="#" class="destinations__card">
+                            <div class="destinations__photo">
+                                <img class="" src="assets/images/destinations/3.jpg" alt="">
+                            </div>
+                            <ul class="destinations__route">
+                                <li>Innsbruck airport</li>
+                                <li>Pettneu am Arlberg</li>
+                            </ul>
+                            <div class="destinations__price">
+                                <img src="assets/images/icons/Euro.svg" alt="">
+                                <div>142</div>
+                            </div>
+                        </a>
+                        <!--/.destinations__card-->
+                        <a href="#" class="destinations__card">
+                            <div class="destinations__photo">
+                                <img class="" src="assets/images/destinations/4.jpg" alt="">
+                            </div>
+                            <ul class="destinations__route">
+                                <li>Innsbruck airport</li>
+                                <li>Sonnenkopf an Arlberg</li>
+                            </ul>
+                            <div class="destinations__price">
+                                <img src="assets/images/icons/Euro.svg" alt="">
+                                <div>215</div>
+                            </div>
+                        </a>
+                        <!--/.destinations__card-->
+                        <a href="#" class="destinations__card">
+                            <div class="destinations__photo">
+                                <img class="" src="assets/images/destinations/5.jpg" alt="">
+                            </div>
+                            <ul class="destinations__route">
+                                <li>Innsbruck airport</li>
+                                <li>La Villa</li>
+                            </ul>
+                            <div class="destinations__price">
+                                <img src="assets/images/icons/Euro.svg" alt="">
+                                <div>100</div>
+                            </div>
+                        </a>
+                        <!--/.destinations__card-->
+                        <a href="#" class="destinations__card">
+                            <div class="destinations__photo">
+                                <img class="" src="assets/images/destinations/6.jpg" alt="">
+                            </div>
+                            <ul class="destinations__route">
+                                <li>Innsbruck airport</li>
+                                <li>Hochgurgl</li>
+                            </ul>
+                            <div class="destinations__price">
+                                <img src="assets/images/icons/Euro.svg" alt="">
+                                <div>312</div>
+                            </div>
+                        </a>
+                        <!--/.destinations__card-->
+                        <a href="#" class="destinations__card">
+                            <div class="destinations__photo">
+                                <img class="" src="assets/images/destinations/7.jpg" alt="">
+                            </div>
+                            <ul class="destinations__route">
+                                <li>Innsbruck airport</li>
+                                <li>Gerlos</li>
+                            </ul>
+                            <div class="destinations__price">
+                                <img src="assets/images/icons/Euro.svg" alt="">
+                                <div>179</div>
+                            </div>
+                        </a>
+                        <!--/.destinations__card-->
+                        <a href="#" class="destinations__card">
+                            <div class="destinations__photo">
+                                <img class="" src="assets/images/destinations/8.jpg" alt="">
+                            </div>
+                            <ul class="destinations__route">
+                                <li>Innsbruck airport</li>
+                                <li>Selva Val Gardena</li>
+                            </ul>
+                            <div class="destinations__price">
+                                <img src="assets/images/icons/Euro.svg" alt="">
+                                <div>235</div>
+                            </div>
+                        </a>
+                        <!--/.destinations__card-->
+                    </div>
+                    <!--/.destinations__cards-->
+        
+                    <div class="destinations__more">
+                        <a href="#">View more destinations</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__row">
+                        <div class="footer__logo">
+                            <a href="#" class="footer__link">
+                                <img class="footer__image" src="assets/images/HeaderLogo.png" alt="Image">
+                            </a>
+                        </div>
+        
+                        <div class="footer__links">
+                            <a href="#" class="footer__link">
+                                <img class="footer__image" src="assets/images/footer/Google.png" alt="Image">
+                            </a>
+                            <a href="#" class="footer__link">
+                                <img class="footer__image" src="assets/images/footer/Facebook.png" alt="Image">
+                            </a>
+                            <a href="#" class="footer__link">
+                                <img class="footer__image" src="assets/images/footer/TripAdvisor.png" alt="Image">
+                            </a>
+                        </div>
+                    </div>
+                    <!--/.footer__row-->
+                    <hr>
+                    <div class="footer__contacts">
+                        <div class="footer__copyright">© 2020 Welcome-Taxi.com</div>
+                        <div class="footer__contacts-item">
+                            <img src="assets/images/icons/Phone.svg" alt="Image">
+                            <a href="tel:+436601231212">+43 660 123 12 12</a>
+                        </div>
+                        <div class="footer__contacts-item">
+                            <img src="assets/images/icons/Email.svg" alt="Image">
+                            <a href="mailto:office@welcome-taxi.com">office@welcome-taxi.com</a>
+                        </div>
+                        <div class="footer__contacts-item">
+                            <img src="assets/images/icons/Point2.svg" alt="Image">
+                            <a href="#">Dr.-Stumpf-Straße 80 - 6020 Innsbruck - Austria</a>
+                        </div>
+                    </div>
+                    <!--/.footer__contacts-->
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/lightpick@latest/lightpick.js"></script>
+    <!--        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>-->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
