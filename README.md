@@ -2,7 +2,7 @@
 
 Вёрстка страницы учебного проекта [WelcomeTaxi](https://nikitasapego.github.io/WelcomeTaxi/)
 
-#html #css #javascript #jquery
+#html #css #javascript
 
 - Имеется адаптив до 320px;
 - Все файлы структурированы по папкам;
